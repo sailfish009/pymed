@@ -16,8 +16,8 @@ For full (working) examples have a look at the `examples/` folder in this reposi
 
 ```python
 from pymed import PubMed
-pubmed = PubMed(tool="MyTool", email="my@email.address")
-results = pubmed.query("Some query", max_results=500)
+pubmed = PubMed(tool="Abstract", email="my@email.address")
+results = pubmed.query("aspirin", max_results=500)
 ```
 
 ## Notes on the API
